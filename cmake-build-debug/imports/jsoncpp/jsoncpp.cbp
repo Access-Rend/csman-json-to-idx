@@ -1,0 +1,458 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="jsoncpp"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\imports\;CMake Files\imports\jsoncpp\;CMake Files\imports\jsoncpp\cmake\;CMake Files\imports\jsoncpp\pkg-config\;CMake Files\imports\jsoncpp\src\;CMake Files\imports\jsoncpp\src\lib_json\;CMake Files\imports\jsoncpp\src\jsontestrunner\;CMake Files\imports\jsoncpp\src\test_lib_json\;CMake Files\imports\jsoncpp\include\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/mnt/d/mywork/csman_json_to_idx/cmake-build-debug/imports/jsoncpp"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/mywork/csman_json_to_idx/cmake-build-debug/imports/jsoncpp/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/mywork/csman_json_to_idx/cmake-build-debug/imports/jsoncpp/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/mywork/csman_json_to_idx/cmake-build-debug/imports/jsoncpp/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/mywork/csman_json_to_idx/cmake-build-debug/imports/jsoncpp/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Nightly">
+				<Option working_dir="/mnt/d/mywork/csman_json_to_idx/cmake-build-debug/imports/jsoncpp"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/mywork/csman_json_to_idx/cmake-build-debug/imports/jsoncpp/Makefile&quot;  VERBOSE=1 Nightly"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/mywork/csman_json_to_idx/cmake-build-debug/imports/jsoncpp/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/mywork/csman_json_to_idx/cmake-build-debug/imports/jsoncpp/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/mywork/csman_json_to_idx/cmake-build-debug/imports/jsoncpp/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Continuous">
+				<Option working_dir="/mnt/d/mywork/csman_json_to_idx/cmake-build-debug/imports/jsoncpp"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/mywork/csman_json_to_idx/cmake-build-debug/imports/jsoncpp/Makefile&quot;  VERBOSE=1 Continuous"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/mywork/csman_json_to_idx/cmake-build-debug/imports/jsoncpp/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/mywork/csman_json_to_idx/cmake-build-debug/imports/jsoncpp/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/mywork/csman_json_to_idx/cmake-build-debug/imports/jsoncpp/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Experimental">
+				<Option working_dir="/mnt/d/mywork/csman_json_to_idx/cmake-build-debug/imports/jsoncpp"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/mywork/csman_json_to_idx/cmake-build-debug/imports/jsoncpp/Makefile&quot;  VERBOSE=1 Experimental"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/mywork/csman_json_to_idx/cmake-build-debug/imports/jsoncpp/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/mywork/csman_json_to_idx/cmake-build-debug/imports/jsoncpp/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/mywork/csman_json_to_idx/cmake-build-debug/imports/jsoncpp/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="jsoncpp_object">
+				<Option output="/mnt/d/mywork/csman_json_to_idx/cmake-build-debug/imports/jsoncpp/src/lib_json/CMakeFiles/jsoncpp_object.dir/jsoncpp_object.objlib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/mywork/csman_json_to_idx/cmake-build-debug/imports/jsoncpp/src/lib_json"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DJSON_DLL_BUILD"/>
+					<Add directory="/mnt/d/mywork/csman_json_to_idx/imports/jsoncpp/include"/>
+					<Add directory="/mnt/d/mywork/csman_json_to_idx/imports/jsoncpp/src/lib_json/../../include"/>
+					<Add directory="/mnt/d/mywork/csman_json_to_idx/cmake-build-debug/imports/jsoncpp/include/json"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/mywork/csman_json_to_idx/cmake-build-debug/imports/jsoncpp/src/lib_json/Makefile&quot;  VERBOSE=1 jsoncpp_object"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/mywork/csman_json_to_idx/cmake-build-debug/imports/jsoncpp/src/lib_json/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/mywork/csman_json_to_idx/cmake-build-debug/imports/jsoncpp/src/lib_json/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/mywork/csman_json_to_idx/cmake-build-debug/imports/jsoncpp/src/lib_json/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="jsoncpp_object/fast">
+				<Option output="/mnt/d/mywork/csman_json_to_idx/cmake-build-debug/imports/jsoncpp/src/lib_json/CMakeFiles/jsoncpp_object.dir/jsoncpp_object.objlib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/mywork/csman_json_to_idx/cmake-build-debug/imports/jsoncpp/src/lib_json"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DJSON_DLL_BUILD"/>
+					<Add directory="/mnt/d/mywork/csman_json_to_idx/imports/jsoncpp/include"/>
+					<Add directory="/mnt/d/mywork/csman_json_to_idx/imports/jsoncpp/src/lib_json/../../include"/>
+					<Add directory="/mnt/d/mywork/csman_json_to_idx/cmake-build-debug/imports/jsoncpp/include/json"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/mywork/csman_json_to_idx/cmake-build-debug/imports/jsoncpp/src/lib_json/Makefile&quot;  VERBOSE=1 jsoncpp_object/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/mywork/csman_json_to_idx/cmake-build-debug/imports/jsoncpp/src/lib_json/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/mywork/csman_json_to_idx/cmake-build-debug/imports/jsoncpp/src/lib_json/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/mywork/csman_json_to_idx/cmake-build-debug/imports/jsoncpp/src/lib_json/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="jsoncpp_static">
+				<Option output="/mnt/d/mywork/csman_json_to_idx/cmake-build-debug/lib/libjsoncpp_static.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/mywork/csman_json_to_idx/cmake-build-debug/imports/jsoncpp/src/lib_json"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DJSON_DLL_BUILD"/>
+					<Add directory="/mnt/d/mywork/csman_json_to_idx/imports/jsoncpp/include"/>
+					<Add directory="/mnt/d/mywork/csman_json_to_idx/imports/jsoncpp/src/lib_json/../../include"/>
+					<Add directory="/mnt/d/mywork/csman_json_to_idx/cmake-build-debug/imports/jsoncpp/include/json"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/mywork/csman_json_to_idx/cmake-build-debug/imports/jsoncpp/src/lib_json/Makefile&quot;  VERBOSE=1 jsoncpp_static"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/mywork/csman_json_to_idx/cmake-build-debug/imports/jsoncpp/src/lib_json/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/mywork/csman_json_to_idx/cmake-build-debug/imports/jsoncpp/src/lib_json/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/mywork/csman_json_to_idx/cmake-build-debug/imports/jsoncpp/src/lib_json/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="jsoncpp_static/fast">
+				<Option output="/mnt/d/mywork/csman_json_to_idx/cmake-build-debug/lib/libjsoncpp_static.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/mywork/csman_json_to_idx/cmake-build-debug/imports/jsoncpp/src/lib_json"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DJSON_DLL_BUILD"/>
+					<Add directory="/mnt/d/mywork/csman_json_to_idx/imports/jsoncpp/include"/>
+					<Add directory="/mnt/d/mywork/csman_json_to_idx/imports/jsoncpp/src/lib_json/../../include"/>
+					<Add directory="/mnt/d/mywork/csman_json_to_idx/cmake-build-debug/imports/jsoncpp/include/json"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/mywork/csman_json_to_idx/cmake-build-debug/imports/jsoncpp/src/lib_json/Makefile&quot;  VERBOSE=1 jsoncpp_static/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/mywork/csman_json_to_idx/cmake-build-debug/imports/jsoncpp/src/lib_json/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/mywork/csman_json_to_idx/cmake-build-debug/imports/jsoncpp/src/lib_json/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/mywork/csman_json_to_idx/cmake-build-debug/imports/jsoncpp/src/lib_json/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="jsoncpp_lib">
+				<Option output="/mnt/d/mywork/csman_json_to_idx/cmake-build-debug/lib/libjsoncpp.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/mywork/csman_json_to_idx/cmake-build-debug/imports/jsoncpp/src/lib_json"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DJSON_DLL_BUILD"/>
+					<Add directory="/mnt/d/mywork/csman_json_to_idx/imports/jsoncpp/include"/>
+					<Add directory="/mnt/d/mywork/csman_json_to_idx/imports/jsoncpp/src/lib_json/../../include"/>
+					<Add directory="/mnt/d/mywork/csman_json_to_idx/cmake-build-debug/imports/jsoncpp/include/json"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/mywork/csman_json_to_idx/cmake-build-debug/imports/jsoncpp/src/lib_json/Makefile&quot;  VERBOSE=1 jsoncpp_lib"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/mywork/csman_json_to_idx/cmake-build-debug/imports/jsoncpp/src/lib_json/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/mywork/csman_json_to_idx/cmake-build-debug/imports/jsoncpp/src/lib_json/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/mywork/csman_json_to_idx/cmake-build-debug/imports/jsoncpp/src/lib_json/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="jsoncpp_lib/fast">
+				<Option output="/mnt/d/mywork/csman_json_to_idx/cmake-build-debug/lib/libjsoncpp.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/mywork/csman_json_to_idx/cmake-build-debug/imports/jsoncpp/src/lib_json"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DJSON_DLL_BUILD"/>
+					<Add directory="/mnt/d/mywork/csman_json_to_idx/imports/jsoncpp/include"/>
+					<Add directory="/mnt/d/mywork/csman_json_to_idx/imports/jsoncpp/src/lib_json/../../include"/>
+					<Add directory="/mnt/d/mywork/csman_json_to_idx/cmake-build-debug/imports/jsoncpp/include/json"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/mywork/csman_json_to_idx/cmake-build-debug/imports/jsoncpp/src/lib_json/Makefile&quot;  VERBOSE=1 jsoncpp_lib/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/mywork/csman_json_to_idx/cmake-build-debug/imports/jsoncpp/src/lib_json/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/mywork/csman_json_to_idx/cmake-build-debug/imports/jsoncpp/src/lib_json/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/mywork/csman_json_to_idx/cmake-build-debug/imports/jsoncpp/src/lib_json/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="jsoncpp_check">
+				<Option working_dir="/mnt/d/mywork/csman_json_to_idx/cmake-build-debug/imports/jsoncpp/src/jsontestrunner"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/mywork/csman_json_to_idx/cmake-build-debug/imports/jsoncpp/src/jsontestrunner/Makefile&quot;  VERBOSE=1 jsoncpp_check"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/mywork/csman_json_to_idx/cmake-build-debug/imports/jsoncpp/src/jsontestrunner/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/mywork/csman_json_to_idx/cmake-build-debug/imports/jsoncpp/src/jsontestrunner/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/mywork/csman_json_to_idx/cmake-build-debug/imports/jsoncpp/src/jsontestrunner/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="jsoncpp_readerwriter_tests">
+				<Option working_dir="/mnt/d/mywork/csman_json_to_idx/cmake-build-debug/imports/jsoncpp/src/jsontestrunner"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/mywork/csman_json_to_idx/cmake-build-debug/imports/jsoncpp/src/jsontestrunner/Makefile&quot;  VERBOSE=1 jsoncpp_readerwriter_tests"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/mywork/csman_json_to_idx/cmake-build-debug/imports/jsoncpp/src/jsontestrunner/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/mywork/csman_json_to_idx/cmake-build-debug/imports/jsoncpp/src/jsontestrunner/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/mywork/csman_json_to_idx/cmake-build-debug/imports/jsoncpp/src/jsontestrunner/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="jsontestrunner_exe">
+				<Option output="/mnt/d/mywork/csman_json_to_idx/cmake-build-debug/bin/jsontestrunner_exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/mywork/csman_json_to_idx/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DJSON_DLL"/>
+					<Add directory="/mnt/d/mywork/csman_json_to_idx/imports/jsoncpp/include"/>
+					<Add directory="/mnt/d/mywork/csman_json_to_idx/imports/jsoncpp/src/lib_json/../../include"/>
+					<Add directory="/mnt/d/mywork/csman_json_to_idx/cmake-build-debug/imports/jsoncpp/include/json"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/mywork/csman_json_to_idx/cmake-build-debug/imports/jsoncpp/src/jsontestrunner/Makefile&quot;  VERBOSE=1 jsontestrunner_exe"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/mywork/csman_json_to_idx/cmake-build-debug/imports/jsoncpp/src/jsontestrunner/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/mywork/csman_json_to_idx/cmake-build-debug/imports/jsoncpp/src/jsontestrunner/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/mywork/csman_json_to_idx/cmake-build-debug/imports/jsoncpp/src/jsontestrunner/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="jsontestrunner_exe/fast">
+				<Option output="/mnt/d/mywork/csman_json_to_idx/cmake-build-debug/bin/jsontestrunner_exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/mywork/csman_json_to_idx/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DJSON_DLL"/>
+					<Add directory="/mnt/d/mywork/csman_json_to_idx/imports/jsoncpp/include"/>
+					<Add directory="/mnt/d/mywork/csman_json_to_idx/imports/jsoncpp/src/lib_json/../../include"/>
+					<Add directory="/mnt/d/mywork/csman_json_to_idx/cmake-build-debug/imports/jsoncpp/include/json"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/mywork/csman_json_to_idx/cmake-build-debug/imports/jsoncpp/src/jsontestrunner/Makefile&quot;  VERBOSE=1 jsontestrunner_exe/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/mywork/csman_json_to_idx/cmake-build-debug/imports/jsoncpp/src/jsontestrunner/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/mywork/csman_json_to_idx/cmake-build-debug/imports/jsoncpp/src/jsontestrunner/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/mywork/csman_json_to_idx/cmake-build-debug/imports/jsoncpp/src/jsontestrunner/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="jsoncpp_test">
+				<Option output="/mnt/d/mywork/csman_json_to_idx/cmake-build-debug/bin/jsoncpp_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/mywork/csman_json_to_idx/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DJSON_DLL"/>
+					<Add directory="/mnt/d/mywork/csman_json_to_idx/imports/jsoncpp/include"/>
+					<Add directory="/mnt/d/mywork/csman_json_to_idx/imports/jsoncpp/src/lib_json/../../include"/>
+					<Add directory="/mnt/d/mywork/csman_json_to_idx/cmake-build-debug/imports/jsoncpp/include/json"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/mywork/csman_json_to_idx/cmake-build-debug/imports/jsoncpp/src/test_lib_json/Makefile&quot;  VERBOSE=1 jsoncpp_test"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/mywork/csman_json_to_idx/cmake-build-debug/imports/jsoncpp/src/test_lib_json/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/mywork/csman_json_to_idx/cmake-build-debug/imports/jsoncpp/src/test_lib_json/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/mywork/csman_json_to_idx/cmake-build-debug/imports/jsoncpp/src/test_lib_json/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="jsoncpp_test/fast">
+				<Option output="/mnt/d/mywork/csman_json_to_idx/cmake-build-debug/bin/jsoncpp_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/mywork/csman_json_to_idx/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DJSON_DLL"/>
+					<Add directory="/mnt/d/mywork/csman_json_to_idx/imports/jsoncpp/include"/>
+					<Add directory="/mnt/d/mywork/csman_json_to_idx/imports/jsoncpp/src/lib_json/../../include"/>
+					<Add directory="/mnt/d/mywork/csman_json_to_idx/cmake-build-debug/imports/jsoncpp/include/json"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/mnt/d/mywork/csman_json_to_idx/cmake-build-debug/imports/jsoncpp/src/test_lib_json/Makefile&quot;  VERBOSE=1 jsoncpp_test/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/d/mywork/csman_json_to_idx/cmake-build-debug/imports/jsoncpp/src/test_lib_json/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/d/mywork/csman_json_to_idx/cmake-build-debug/imports/jsoncpp/src/test_lib_json/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/d/mywork/csman_json_to_idx/cmake-build-debug/imports/jsoncpp/src/test_lib_json/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/mnt/d/mywork/csman_json_to_idx/imports/jsoncpp/include/json/assertions.h">
+			<Option target="jsoncpp_object"/>
+			<Option target="jsoncpp_static"/>
+			<Option target="jsoncpp_lib"/>
+		</Unit>
+		<Unit filename="/mnt/d/mywork/csman_json_to_idx/imports/jsoncpp/include/json/config.h">
+			<Option target="jsoncpp_object"/>
+			<Option target="jsoncpp_static"/>
+			<Option target="jsoncpp_lib"/>
+		</Unit>
+		<Unit filename="/mnt/d/mywork/csman_json_to_idx/imports/jsoncpp/include/json/forwards.h">
+			<Option target="jsoncpp_object"/>
+			<Option target="jsoncpp_static"/>
+			<Option target="jsoncpp_lib"/>
+		</Unit>
+		<Unit filename="/mnt/d/mywork/csman_json_to_idx/imports/jsoncpp/include/json/json_features.h">
+			<Option target="jsoncpp_object"/>
+			<Option target="jsoncpp_static"/>
+			<Option target="jsoncpp_lib"/>
+		</Unit>
+		<Unit filename="/mnt/d/mywork/csman_json_to_idx/imports/jsoncpp/include/json/reader.h">
+			<Option target="jsoncpp_object"/>
+			<Option target="jsoncpp_static"/>
+			<Option target="jsoncpp_lib"/>
+		</Unit>
+		<Unit filename="/mnt/d/mywork/csman_json_to_idx/imports/jsoncpp/include/json/value.h">
+			<Option target="jsoncpp_object"/>
+			<Option target="jsoncpp_static"/>
+			<Option target="jsoncpp_lib"/>
+		</Unit>
+		<Unit filename="/mnt/d/mywork/csman_json_to_idx/imports/jsoncpp/include/json/version.h">
+			<Option target="jsoncpp_object"/>
+			<Option target="jsoncpp_static"/>
+			<Option target="jsoncpp_lib"/>
+		</Unit>
+		<Unit filename="/mnt/d/mywork/csman_json_to_idx/imports/jsoncpp/include/json/writer.h">
+			<Option target="jsoncpp_object"/>
+			<Option target="jsoncpp_static"/>
+			<Option target="jsoncpp_lib"/>
+		</Unit>
+		<Unit filename="/mnt/d/mywork/csman_json_to_idx/imports/jsoncpp/src/jsontestrunner/main.cpp">
+			<Option target="jsontestrunner_exe"/>
+		</Unit>
+		<Unit filename="/mnt/d/mywork/csman_json_to_idx/imports/jsoncpp/src/lib_json/json_reader.cpp">
+			<Option target="jsoncpp_object"/>
+			<Option target="jsoncpp_static"/>
+			<Option target="jsoncpp_lib"/>
+		</Unit>
+		<Unit filename="/mnt/d/mywork/csman_json_to_idx/imports/jsoncpp/src/lib_json/json_tool.h">
+			<Option target="jsoncpp_object"/>
+			<Option target="jsoncpp_static"/>
+			<Option target="jsoncpp_lib"/>
+		</Unit>
+		<Unit filename="/mnt/d/mywork/csman_json_to_idx/imports/jsoncpp/src/lib_json/json_value.cpp">
+			<Option target="jsoncpp_object"/>
+			<Option target="jsoncpp_static"/>
+			<Option target="jsoncpp_lib"/>
+		</Unit>
+		<Unit filename="/mnt/d/mywork/csman_json_to_idx/imports/jsoncpp/src/lib_json/json_valueiterator.inl">
+			<Option target="jsoncpp_object"/>
+			<Option target="jsoncpp_static"/>
+			<Option target="jsoncpp_lib"/>
+		</Unit>
+		<Unit filename="/mnt/d/mywork/csman_json_to_idx/imports/jsoncpp/src/lib_json/json_writer.cpp">
+			<Option target="jsoncpp_object"/>
+			<Option target="jsoncpp_static"/>
+			<Option target="jsoncpp_lib"/>
+		</Unit>
+		<Unit filename="/mnt/d/mywork/csman_json_to_idx/imports/jsoncpp/src/test_lib_json/fuzz.cpp">
+			<Option target="jsoncpp_test"/>
+		</Unit>
+		<Unit filename="/mnt/d/mywork/csman_json_to_idx/imports/jsoncpp/src/test_lib_json/fuzz.h">
+			<Option target="jsoncpp_test"/>
+		</Unit>
+		<Unit filename="/mnt/d/mywork/csman_json_to_idx/imports/jsoncpp/src/test_lib_json/jsontest.cpp">
+			<Option target="jsoncpp_test"/>
+		</Unit>
+		<Unit filename="/mnt/d/mywork/csman_json_to_idx/imports/jsoncpp/src/test_lib_json/jsontest.h">
+			<Option target="jsoncpp_test"/>
+		</Unit>
+		<Unit filename="/mnt/d/mywork/csman_json_to_idx/imports/jsoncpp/src/test_lib_json/main.cpp">
+			<Option target="jsoncpp_test"/>
+		</Unit>
+		<Unit filename="/mnt/d/mywork/csman_json_to_idx/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/mnt/d/mywork/csman_json_to_idx/imports/jsoncpp/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\imports\jsoncpp\"/>
+		</Unit>
+		<Unit filename="/mnt/d/mywork/csman_json_to_idx/imports/jsoncpp/CTestConfig.cmake">
+			<Option virtualFolder="CMake Files\imports\jsoncpp\"/>
+		</Unit>
+		<Unit filename="/mnt/d/mywork/csman_json_to_idx/imports/jsoncpp/version.in">
+			<Option virtualFolder="CMake Files\imports\jsoncpp\"/>
+		</Unit>
+		<Unit filename="/mnt/d/mywork/csman_json_to_idx/imports/jsoncpp/cmake/JoinPaths.cmake">
+			<Option virtualFolder="CMake Files\imports\jsoncpp\cmake\"/>
+		</Unit>
+		<Unit filename="/mnt/d/mywork/csman_json_to_idx/imports/jsoncpp/pkg-config/jsoncpp.pc.in">
+			<Option virtualFolder="CMake Files\imports\jsoncpp\pkg-config\"/>
+		</Unit>
+		<Unit filename="/mnt/d/mywork/csman_json_to_idx/imports/jsoncpp/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\imports\jsoncpp\src\"/>
+		</Unit>
+		<Unit filename="/mnt/d/mywork/csman_json_to_idx/imports/jsoncpp/src/lib_json/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\imports\jsoncpp\src\lib_json\"/>
+		</Unit>
+		<Unit filename="/mnt/d/mywork/csman_json_to_idx/imports/jsoncpp/src/jsontestrunner/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\imports\jsoncpp\src\jsontestrunner\"/>
+		</Unit>
+		<Unit filename="/mnt/d/mywork/csman_json_to_idx/imports/jsoncpp/src/test_lib_json/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\imports\jsoncpp\src\test_lib_json\"/>
+		</Unit>
+		<Unit filename="/mnt/d/mywork/csman_json_to_idx/imports/jsoncpp/include/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\imports\jsoncpp\include\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

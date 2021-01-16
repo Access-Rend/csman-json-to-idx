@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/jsontestrunner_exe.dir/main.cpp.o -o ../../../../bin/jsontestrunner_exe  -Wl,-rpath,/mnt/d/mywork/csman_json_to_idx/cmake-build-debug/lib ../../../../lib/libjsoncpp.so.1.9.4 
